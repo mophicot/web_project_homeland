@@ -9,12 +9,15 @@
 }
 
 .header__logo {
+  margin: 0;
   width: 255px;
   height: 69px;
   border: 1px solid orange;
 }
 
 .header__title {
+  margin: 0;
+  margin-top: 91px;
   font-weight: 900;
   line-height: 100px;
   font-size: 96px;
@@ -22,12 +25,12 @@
   width: 720px;
   height: 200px;
   text-align: center;
-  /* margin: 0;
-  letter-spacing: 0%; */
   border: 1px solid greenyellow;
 }
 
 .header__subtitle {
+  margin: 0;
+  margin-top: 32px;
   line-height: 36px;
   font-size: 30px;
   width: 720px;
@@ -39,17 +42,22 @@
 }
 
 .header__photo-bw {
+  margin: 0;
+  margin-top: 64px;
   max-width: 984px;
   max-height: 615px;
-  background-image: url("./images/Rectangle 21.png");
+  /* background-image: url("./images/Rectangle 21.png"); */
   opacity: 50%;
   border: 1px solid white;
 }
 
 .header__photo {
+  margin: 0;
+  margin-top: 64px;
   width: 984px;
   height: 615px;
   background-image: url("./images/kalegin.png");
+  filter: grayscale(100%);
 
   border: 1px solid cyan;
   /* z-index: 1; */

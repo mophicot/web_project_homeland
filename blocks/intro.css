@@ -30,10 +30,11 @@
 
 .intro__quote {
   margin: 0;
+  margin-top: 39.98px;
   /* box-sizing: border-box; */
   width: 738px;
   height: 135.66px;
-  margin-top: 92px;
+
   /* align-self: center; */
   /* padding: 92px auto 0 148px; */
   font-size: 24px;
