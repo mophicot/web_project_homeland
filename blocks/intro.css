@@ -3,12 +3,6 @@
   box-sizing: border-box;
   align-items: flex-start;
   width: 100%;
-  /* width: 830px;
-  height: 607px; */
-  /* padding-top: 7.19%;
-  padding-left: 11.56%; */
-  /* TEST */
-  /* border: 1px solid purple; */
 }
 
 .intro__title {
@@ -19,19 +13,10 @@
   font-size: 54px;
   text-align: left;
   letter-spacing: 0%;
-  /*
-  width: 830px;
-  height: 174px;
-   */
-  /* margin: 0;*/
-  /* margin-top*/
   margin-top: 7.19%;
   margin-left: 11.56%;
   max-width: 64.84%;
   max-height: 13.59%;
-  /* TEST */
-  border: 1px solid rosybrown;
-  /* color: red; */
 }
 
 .intro__quote {
@@ -39,18 +24,10 @@
   font-size: 24px;
   line-height: 34px;
   box-sizing: border-box;
-
-  /* margin-top: 39.98px; */
-  /* width: 738px;
-  height: 135.66px; */
   margin-top: 3.13%;
   margin-left: 11.56%;
   max-width: 57.66%;
   max-height: 10.6%;
-  /* align-self: center; */
-  /* padding: 92px auto 0 148px; */
-  /* TEST */
-  /* border: 1px solid lightcoral; */
 }
 
 .intro__quote-author {
@@ -58,31 +35,19 @@
   font-size: 24px;
   line-height: 34px;
   text-align: right;
-  /* margin-top: 10px; */
-  /* width: 732px;
-  height: 33.91px; */
-  /* margin-top: 0.78%; */
   margin-top: 10px;
   margin-left: 11.56%;
   max-width: 57.19%;
   max-height: 2.65%;
-  /* TEST */
-  border: 1px solid khaki;
 }
 
 .intro__description {
   margin: 0;
   font-size: 16px;
-  /* line-height: 163%; */
-  /* margin-top: 31.99px;
-  width: 722px;
-  height: 181.54px; */
   margin-top: 32px;
   margin-left: 11.56%;
   max-width: 56.41%;
   max-height: 14.18%;
-  /* TEST */
-  border: 1px solid khaki;
 }
 
 /* ++++++++++  MEDIUM  calc((88% / 768) * 100); +++++++++ */
@@ -95,8 +60,6 @@
     margin-left: calc((24% / 768) * 100);
     max-width: calc((707% / 768) * 100);
     max-height: calc((147% / 768) * 100);
-    /* TEST */
-    border: 1px solid fuchsia;
   }
 
   .intro__quote {
@@ -104,8 +67,6 @@
     margin-left: calc((24% / 768) * 100);
     max-width: calc((720% / 768) * 100);
     max-height: calc((136% / 768) * 100);
-    /* TEST */
-    border: 1px solid fuchsia;
   }
 
   .intro__quote-author {
@@ -113,16 +74,12 @@
     margin-left: calc((24% / 768) * 100);
     max-width: calc((720% / 768) * 100);
     max-height: calc((34% / 768) * 100);
-    /* TEST */
-    border: 1px solid fuchsia;
   }
 
   .intro__description {
     margin-left: calc((24% / 768) * 100);
     max-width: calc((720% / 768) * 100);
     max-height: calc((573% / 768) * 100);
-    /* TEST */
-    border: 1px solid fuchsia;
   }
 }
 
@@ -136,8 +93,6 @@
     margin-left: calc((16% / 320) * 100);
     max-width: calc((288% / 320) * 100);
     max-height: calc((175% / 320) * 100);
-    /* TEST */
-    border: 1px solid teal;
   }
 
   .intro__quote {
@@ -146,24 +101,17 @@
     margin-left: calc((16% / 320) * 100);
     max-width: calc((288% / 320) * 100);
     height: calc((300% / 320) * 100);
-
-    /* TEST */
-    /* border: 1px solid teal; */
   }
 
   .intro__quote-author {
     margin-left: calc((16% / 320) * 100);
     max-width: calc((288% / 320) * 100);
     max-height: calc((34% / 320) * 100);
-    /* TEST */
-    border: 1px solid teal;
   }
 
   .intro__description {
     margin-left: calc((16% / 320) * 100);
     max-width: calc((288% / 320) * 100);
     max-height: calc((442% / 320) * 100);
-    /* TEST */
-    border: 1px solid teal;
   }
 }

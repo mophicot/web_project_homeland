@@ -4,10 +4,7 @@
   align-items: center;
   margin: 0;
   box-sizing: border-box;
-  /* padding: 34px 148px 0; */
   width: 100%;
-  /* TEST */
-  border: 1px solid yellow;
 }
 
 .header__logo {
@@ -16,9 +13,6 @@
   max-width: 19.92%;
   max-height: 5.39%;
   margin-top: 2.66%;
-  /* width: 255px;
-  height: 69px; */
-  border: 1px solid orange;
 }
 
 .header__title {
@@ -27,13 +21,9 @@
   line-height: 100px;
   font-size: 96px;
   text-align: center;
-  /* margin-top: 91px; */
   margin-top: 7.11%;
   max-width: 56.25%;
   max-height: 15.62%;
-  /* width: 720px;
-  height: 200px; */
-  border: 1px solid greenyellow;
 }
 
 .header__subtitle {
@@ -41,27 +31,16 @@
   line-height: 36px;
   font-size: 30px;
   text-align: center;
-  /* margin-top: 32px; */
   margin-top: 2.5%;
   max-width: 56.25%;
   max-height: 5.6%;
-  /* width: 720px;
-  height: 72px; */
-  border: 1px solid lime;
 }
 
 .header__photo {
   margin: 0;
-  /* background-image: url("./images/kalegin.png");
-  filter: grayscale(100%);
-  object-fit: contain; */
-  /* margin-top: 64px; */
   margin-top: 5%;
   max-width: 76.88%;
   max-height: 48.05%;
-  /* width: 984px;
-    height: 615px; */
-  border: 1px solid cyan;
 }
 
 .header__image {
@@ -69,9 +48,7 @@
   background-image: url("./images/kalegin.png");
   filter: grayscale(100%);
   object-fit: cover;
-  /* margin-top: 5%; */
   max-width: 100%;
-  /* max-height: 48.05%; */
   border: 1px solid red;
 }
 
@@ -82,8 +59,6 @@
     max-width: calc((254% / 768) * 100);
     max-height: calc((66% / 768) * 100);
     margin-top: calc((30% / 768) * 100);
-
-    border: 1px solid fuchsia;
   }
 
   .header__title {
@@ -93,8 +68,6 @@
     margin-top: calc((90% / 768) * 100);
     max-width: calc((530% / 768) * 100);
     max-height: calc((158% / 768) * 100);
-
-    border: 1px solid fuchsia;
   }
 
   .header__subtitle {
@@ -103,16 +76,12 @@
     margin-top: calc((25% / 768) * 100);
     max-width: calc((720% / 768) * 100);
     max-height: calc((72% / 768) * 100);
-
-    border: 1px solid fuchsia;
   }
 
   .header__photo {
     margin-top: calc((30% / 768) * 100);
     max-width: calc((768% / 768) * 100);
     max-height: calc((480% / 768) * 100);
-
-    border: 1px solid fuchsia;
   }
 }
 
@@ -123,8 +92,6 @@
     max-width: calc((188% / 320) * 100);
     max-height: calc((52% / 320) * 100);
     margin-top: calc((20% / 320) * 100);
-
-    border: 1px solid teal;
   }
 
   .header__title {
@@ -134,8 +101,6 @@
     margin-top: calc((50% / 320) * 100);
     max-width: calc((228% / 320) * 100);
     max-height: calc((88% / 320) * 100);
-
-    border: 1px solid teal;
   }
 
   .header__subtitle {
@@ -144,15 +109,11 @@
     margin-top: calc((16% / 320) * 100);
     max-width: calc((288% / 320) * 100);
     max-height: calc((40% / 320) * 100);
-
-    border: 1px solid teal;
   }
 
   .header__photo {
     margin-top: calc((40% / 320) * 100);
     max-width: calc((320% / 320) * 100);
     max-height: calc((200% / 320) * 100);
-
-    border: 1px solid teal;
   }
 }

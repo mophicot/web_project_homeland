@@ -4,8 +4,6 @@
   justify-content: center;
   margin: 0;
   width: 100%;
-  /* padding: 92px 0 24px 0; */
-  border: 1px solid pink;
 }
 
 .footer__copyright {
@@ -14,9 +12,6 @@
   margin: 0;
   margin-top: 7.19%;
   margin-bottom: 24px;
-  /* max-width: 56.41%;
-  max-height: 14.18%; */
-  border: 1px solid blue;
 }
 
 /* ++++++++++  MEDIUM   +++++++++ */
