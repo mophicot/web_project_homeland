@@ -1,15 +1,14 @@
 .intro {
   margin: 0;
-  /* box-sizing: border-box; */
-  width: 830px;
-  height: 607px;
-  /* align-self: center; */
-  /* padding: 92px auto 0 148px; */
-  padding-top: 92px;
-  padding-left: 148px;
-
-  border: 1px solid purple;
+  box-sizing: border-box;
   align-items: flex-start;
+  width: 100%;
+  /* width: 830px;
+  height: 607px; */
+  /* padding-top: 7.19%;
+  padding-left: 11.56%; */
+  /* TEST */
+  border: 1px solid purple;
 }
 
 .intro__title {
@@ -18,45 +17,71 @@
   font-weight: 900;
   line-height: 58px;
   font-size: 54px;
-
+  text-align: left;
+  letter-spacing: 0%;
+  /*
   width: 830px;
   height: 174px;
-  text-align: left;
+   */
   /* margin: 0;*/
-  letter-spacing: 0%;
+  /* margin-top*/
+  margin-top: 7.19%;
+  margin-left: 11.56%;
+  max-width: 64.84%;
+  max-height: 13.59%;
+  /* TEST */
   border: 1px solid rosybrown;
   /* color: red; */
 }
 
 .intro__quote {
   margin: 0;
-  margin-top: 39.98px;
-  /* box-sizing: border-box; */
-  width: 738px;
-  height: 135.66px;
-
-  /* align-self: center; */
-  /* padding: 92px auto 0 148px; */
   font-size: 24px;
   line-height: 34px;
+  box-sizing: border-box;
+
+  /* margin-top: 39.98px; */
+  /* width: 738px;
+  height: 135.66px; */
+  margin-top: 3.13%;
+  margin-left: 11.56%;
+  max-width: 57.66%;
+  max-height: 10.6%;
+  /* align-self: center; */
+  /* padding: 92px auto 0 148px; */
+  /* TEST */
+  border: 1px solid lightcoral;
 }
 
 .intro__quote-author {
   margin: 0;
-  width: 732px;
-  height: 33.91px;
-  margin-top: 10px;
   font-size: 24px;
   line-height: 34px;
   text-align: right;
+  /* margin-top: 10px; */
+  /* width: 732px;
+  height: 33.91px; */
+  /* margin-top: 0.78%; */
+  margin-top: 10px;
+  margin-left: 11.56%;
+  max-width: 57.19%;
+  max-height: 2.65%;
+  /* TEST */
+  border: 1px solid khaki;
 }
 
 .intro__description {
   margin: 0;
-  margin-top: 31.99px;
-  width: 722px;
-  height: 181.54px;
-
   font-size: 16px;
-  line-height: 163%;
+  /* line-height: 163%; */
+  /* margin-top: 31.99px;
+  width: 722px;
+  height: 181.54px; */
+  margin-top: 2.5%;
+  margin-top: 32px;
+  margin-left: 11.56%;
+  max-width: 56.41%;
+  max-height: 14.18%;
+  /* TEST */
+  border: 1px solid khaki;
 }

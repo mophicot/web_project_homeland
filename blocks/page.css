@@ -9,9 +9,30 @@
   background-color: #2a2c2f;
   display: flex;
   flex-direction: column;
-  /*
-  margin-left: auto;
-  margin-right: auto; */
-  /* min-width: 1024px; */
+
   max-width: 100%;
+  /* Suavizado de las fuentes en Firefox
+   y en los navegadores que utilizan webkit
+   (Google Chrome, Opera, Safari*/
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /* maximizar la legibilidad del texto.  */
+  text-rendering: optimizeLegibility;
 }
+
+/*
+
+
+@media screen and (max-width : 425px) {
+
+  .content__columns {
+      flex-direction: column;
+  }
+  
+    .content__column {
+    width: 100%;
+    margin-bottom:60px;
+  }
+  }
+
+  */
