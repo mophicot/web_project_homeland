@@ -19,20 +19,3 @@
   /* maximizar la legibilidad del texto.  */
   text-rendering: optimizeLegibility;
 }
-
-/*
-
-
-@media screen and (max-width : 425px) {
-
-  .content__columns {
-      flex-direction: column;
-  }
-  
-    .content__column {
-    width: 100%;
-    margin-bottom:60px;
-  }
-  }
-
-  */

@@ -8,7 +8,7 @@
   /* padding-top: 7.19%;
   padding-left: 11.56%; */
   /* TEST */
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 .intro__title {
@@ -50,7 +50,7 @@
   /* align-self: center; */
   /* padding: 92px auto 0 148px; */
   /* TEST */
-  border: 1px solid lightcoral;
+  /* border: 1px solid lightcoral; */
 }
 
 .intro__quote-author {
@@ -77,11 +77,93 @@
   /* margin-top: 31.99px;
   width: 722px;
   height: 181.54px; */
-  margin-top: 2.5%;
   margin-top: 32px;
   margin-left: 11.56%;
   max-width: 56.41%;
   max-height: 14.18%;
   /* TEST */
   border: 1px solid khaki;
+}
+
+/* ++++++++++  MEDIUM  calc((88% / 768) * 100); +++++++++ */
+
+@media screen and (min-width: 544px) and (max-width: 1023px) {
+  .intro__title {
+    line-height: 49px;
+    font-size: 45px;
+    margin-top: calc((90% / 768) * 100);
+    margin-left: calc((24% / 768) * 100);
+    max-width: calc((707% / 768) * 100);
+    max-height: calc((147% / 768) * 100);
+    /* TEST */
+    border: 1px solid fuchsia;
+  }
+
+  .intro__quote {
+    margin-top: calc((50% / 768) * 100);
+    margin-left: calc((24% / 768) * 100);
+    max-width: calc((720% / 768) * 100);
+    max-height: calc((136% / 768) * 100);
+    /* TEST */
+    border: 1px solid fuchsia;
+  }
+
+  .intro__quote-author {
+    /* No usar margenes negativos */
+    margin-left: calc((24% / 768) * 100);
+    max-width: calc((720% / 768) * 100);
+    max-height: calc((34% / 768) * 100);
+    /* TEST */
+    border: 1px solid fuchsia;
+  }
+
+  .intro__description {
+    margin-left: calc((24% / 768) * 100);
+    max-width: calc((720% / 768) * 100);
+    max-height: calc((573% / 768) * 100);
+    /* TEST */
+    border: 1px solid fuchsia;
+  }
+}
+
+/* ++++++++++  SMALL  calc((64% / 320) * 100); +++++++++ */
+
+@media screen and (max-width: 543px) {
+  .intro__title {
+    line-height: 35px;
+    font-size: 32px;
+    margin-top: calc((64% / 320) * 100);
+    margin-left: calc((16% / 320) * 100);
+    max-width: calc((288% / 320) * 100);
+    max-height: calc((175% / 320) * 100);
+    /* TEST */
+    border: 1px solid teal;
+  }
+
+  .intro__quote {
+    line-height: 30px;
+    margin-top: calc((40% / 320) * 100);
+    margin-left: calc((16% / 320) * 100);
+    max-width: calc((288% / 320) * 100);
+    height: calc((300% / 320) * 100);
+
+    /* TEST */
+    /* border: 1px solid teal; */
+  }
+
+  .intro__quote-author {
+    margin-left: calc((16% / 320) * 100);
+    max-width: calc((288% / 320) * 100);
+    max-height: calc((34% / 320) * 100);
+    /* TEST */
+    border: 1px solid teal;
+  }
+
+  .intro__description {
+    margin-left: calc((16% / 320) * 100);
+    max-width: calc((288% / 320) * 100);
+    max-height: calc((442% / 320) * 100);
+    /* TEST */
+    border: 1px solid teal;
+  }
 }

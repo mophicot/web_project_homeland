@@ -18,3 +18,20 @@
   max-height: 14.18%; */
   border: 1px solid blue;
 }
+
+/* ++++++++++  MEDIUM   +++++++++ */
+
+@media screen and (min-width: 544px) and (max-width: 1023px) {
+  .footer__copyright {
+    margin-top: calc((88% / 768) * 100);
+  }
+}
+
+/* ++++++++++  SMALL   +++++++++ */
+
+@media screen and (max-width: 543px) {
+  .footer__copyright {
+    line-height: 14px;
+    margin-top: calc((64% / 320) * 100);
+  }
+}
