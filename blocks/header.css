@@ -49,7 +49,6 @@
   filter: grayscale(100%);
   object-fit: cover;
   max-width: 100%;
-  border: 1px solid red;
 }
 
 /* ++++++++++  MEDIUM  calc((88% / 768) * 100); +++++++++ */
