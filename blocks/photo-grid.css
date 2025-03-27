@@ -64,6 +64,7 @@
     grid-template-rows: repeat(8, 1fr);
 
     row-gap: 12px;
+    padding-bottom: 12px;
   }
 
   .photo-grid__image-block {
