@@ -8,6 +8,7 @@
   padding-top: calc((118% / 1280) * 100);
   padding-left: calc((43% / 1280) * 100);
   padding-right: calc((43% / 1280) * 100);
+  padding-bottom: calc((12% / 1280) * 100);
 
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -96,5 +97,3 @@
     /* border: 1px solid cyan; */
   }
 }
-
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++SE NECESITAN HOVER O SOMBRAS????? */
