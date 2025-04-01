@@ -18,7 +18,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 1fr;
+  width: 100%;
   height: calc((213% / 221.062) * 100);
 }
 
@@ -47,7 +47,7 @@
   }
 
   .photo-grid__image-block {
-    width: 1fr;
+    width: 100%;
     height: calc((264% / 269.95) * 100);
   }
 }
@@ -68,7 +68,7 @@
   }
 
   .photo-grid__image-block {
-    width: 1fr;
+    width: 100%;
     height: calc((216% / 221.58) * 100);
   }
 }
